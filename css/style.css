@@ -1,0 +1,207 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: darkslategray;
+  background-color: lightblue;
+  letter-spacing: 1.2px;
+  height: 700px;
+}
+
+.formz {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.formz > input[type="text"] {
+  border: 3px solid #555;
+  height: 2.5rem;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  background-color: #008cba; /* Green */
+/* font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0.5rem;
+  letter-spacing: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+}
+.spriteContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+body > h1:nth-child(1) {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.choose {
+  font-size: 2rem;
+}
+h2,
+h3 {
+  font-size: 1.5rem;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #53c84f;
+}
+.container {
+  background-color: #ffffff;
+  font-size: 16px;
+  padding: 3em 2.8em;
+  width: 90vw;
+  max-width: 32em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 0.6em;
+}
+.search-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  gap: 1.2em;
+}
+.search-container h4,
+.search-container h2 {
+  font-size: 1em;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+}
+
+.search-container h2 {
+  font-size: 1.9em;
+  padding: 0.4em;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #202030;
+}
+
+.search-container button {
+  font-size: 1em;
+  background-color: #53c84f;
+  border: none;
+  font-weight: 600;
+  border-radius: 0.3em;
+  ;
+}
+img {
+  display: block;
+  width: 50%;
+  margin: 1.8em auto 0 auto;
+}
+.details {
+  background-color: #53c84f;
+  position: relative;
+  margin: -1.3em 0 0 0;
+  text-align: center;
+  padding: 0.6em 0;
+}
+.details h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.details h4 {
+  font-size: 1em;
+  font-weight: 400;
+}
+#show-recipe {
+  font-size: 1em;
+  position: relative;
+  left: 75%;
+  padding: 0.9em 0.6em;
+  background-color: #53c84f;
+  border: none;
+  top: 1.5em;
+  border-radius: 0.3em;
+  font-weight: 600;
+}
+#recipe {
+  position: absolute;
+  background-color: #ffffff;
+  min-height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 0.6em;
+  display: none;
+}
+#recipe pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 2.5em 1.2em 1.2em 1.2em;
+  font-size: 0.92em;
+  color: #303040;
+}
+#hide-recipe {
+  font-size: 1em;
+  position: relative;
+  width: 1.8em;
+  height: 1.8em;
+  background-color: #53c84f;
+  border: none;
+  top: 1.2em;
+  left: 90%;
+  border-radius: 0.3em;
+}
+ul {
+  font-size: 1em;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.8em 1.1em;
+  padding: 1.2em 0 0 1.2em;
+  color: #303040;
+  text-transform: capitalize;
+}
+h3 {
+  text-align: center;
+  margin-top: 1.8em;
+  color: #202030;
+}
+@media screen and (max-width: 500px) {
+  .container {
+    font-size: 14px;
+  }
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
