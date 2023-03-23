@@ -78,7 +78,7 @@ h3 {
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #53c84f;
+  background-color: #3fbf6a;
 }
 .container {
   background-color: #ffffff;
@@ -116,11 +116,10 @@ body {
 
 .search-container button {
   font-size: 1em;
-  background-color: #53c84f;
+  background-color: #3fbf6a;
   border: none;
   font-weight: 600;
   border-radius: 0.3em;
-  ;
 }
 img {
   display: block;
@@ -128,7 +127,7 @@ img {
   margin: 1.8em auto 0 auto;
 }
 .details {
-  background-color: #53c84f;
+  background-color: #3fbf6a;
   position: relative;
   margin: -1.3em 0 0 0;
   text-align: center;
@@ -147,7 +146,7 @@ img {
   position: relative;
   left: 75%;
   padding: 0.9em 0.6em;
-  background-color: #53c84f;
+  background-color: #3fbf6a;
   border: none;
   top: 1.5em;
   border-radius: 0.3em;
@@ -176,7 +175,7 @@ img {
   position: relative;
   width: 1.8em;
   height: 1.8em;
-  background-color: #53c84f;
+  background-color: #3fbf6a;
   border: none;
   top: 1.2em;
   left: 90%;
