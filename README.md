@@ -11,7 +11,7 @@
 
 
 #### Tech Stuff:
-- This webapp was created and designed using HTML, CSS, and Javascript.
+- This webapp was created and designed using HTML and CSS.
 
 ### :star: Try it Out
 
